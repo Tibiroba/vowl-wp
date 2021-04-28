@@ -1,0 +1,63 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+@import 'colors';
+
+
+
+/*
+
+
+FONTS
+
+
+*/
+
+
+@font-face {
+	font-family : 'Arciform';
+	src         : url(src/fonts/Arciform.woff2) format('woff2');
+	font-weight : 300;
+	font-style  : normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Comfortaa-Regular';
+	src        : url(src/fonts/Comfortaa-Regular.woff2) format('woff2');
+
+	font-weight : 600;
+	font-style  : normal;
+	font-display: swap;
+}
+
+
+
+
+/*
+
+	ESTILOS
+
+*/
+
+
+
+.carousel-item {
+	background     : no-repeat center center;
+	background-size: cover;
+	min-height     : 100vh;
+	height         : calc(50vh + 40px);
+}
+
+
+#content {
+	min-height      : calc(100vh - 300px);
+	background-color: $preto;
+	text-align      : center;
+	
+}
+
+footer{
+background-color:#333;
+	height:300px;
+}
